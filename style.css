@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+.guess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 7.5rem;
+    border-radius: .2rem;
+    background-color: black;
+    border-radius: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+.guessednumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.numinput{
+    height: 3rem;
+    width: 13rem;
+    border:  solid 0.2rem black;
+    border-radius: .2rem;
+    padding: 0.7rem;
+}
+#check{
+width: 7rem;
+height: 3rem;
+padding: .2rem;
+letter-spacing: .08 rem;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.pa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+.playagain,.ng{
+    width: 5rem;
+    height: 3rem;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
